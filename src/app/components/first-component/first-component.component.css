@@ -1,3 +1,7 @@
 h2 {
-    color: red;
+  color: red;
+}
+
+p {
+  padding: 10px;
 }
