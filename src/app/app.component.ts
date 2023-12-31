@@ -5,6 +5,7 @@ import { FirstComponentComponent } from './components/first-component/first-comp
 import { ParentDataComponent } from './components/parent-data/parent-data.component';
 import { DirectivesComponent } from './components/directives/directives.component';
 import { IfRenderComponent } from './components/if-render/if-render.component';
+import { EventosComponent } from './components/eventos/eventos.component';
 
 @Component({
   selector: 'app-root',
@@ -18,6 +19,7 @@ import { IfRenderComponent } from './components/if-render/if-render.component';
     ParentDataComponent,
     DirectivesComponent,
     IfRenderComponent,
+    EventosComponent,
   ],
 })
 export class AppComponent {
