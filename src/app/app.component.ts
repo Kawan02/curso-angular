@@ -4,6 +4,7 @@ import { RouterOutlet } from '@angular/router';
 import { FirstComponentComponent } from './components/first-component/first-component.component';
 import { ParentDataComponent } from './components/parent-data/parent-data.component';
 import { DirectivesComponent } from './components/directives/directives.component';
+import { IfRenderComponent } from './components/if-render/if-render.component';
 
 @Component({
   selector: 'app-root',
@@ -16,6 +17,7 @@ import { DirectivesComponent } from './components/directives/directives.componen
     FirstComponentComponent,
     ParentDataComponent,
     DirectivesComponent,
+    IfRenderComponent,
   ],
 })
 export class AppComponent {
