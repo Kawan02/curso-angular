@@ -10,6 +10,8 @@ import { EmitterComponent } from './components/emitter/emitter.component';
 import { ListRenderComponent } from './components/list-render/list-render.component';
 import { PipesComponent } from './components/pipes/pipes.component';
 import { TwoWayBindingComponent } from './components/two-way-binding/two-way-binding.component';
+import { AppRoutingModule } from './app-routing-module';
+import { HttpClientModule } from '@angular/common/http';
 
 @Component({
   selector: 'app-root',
@@ -28,6 +30,8 @@ import { TwoWayBindingComponent } from './components/two-way-binding/two-way-bin
     ListRenderComponent,
     PipesComponent,
     TwoWayBindingComponent,
+    AppRoutingModule,
+    HttpClientModule,
   ],
 })
 export class AppComponent {
